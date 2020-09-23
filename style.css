@@ -18,6 +18,8 @@ header
 header p
 {
     text-align: center;
+    font: 30pt fantasy;
+    color: RGB(148,0,211);
 }
 
 .logo
