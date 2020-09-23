@@ -1,34 +1,33 @@
 body
 {
-	background: url(images/fon.jpg);
-	margin: 0;
-	padding: 0;
-	font: 16px/24px Arial, Sans-Serif;
-}
-
-a
-{
-	text-decoration: none;
-}
-a:hover
-{
-	transition:all 0.5s;
-}
-
-.wrap
-{
-	width: 1000px;
-	margin: 0 auto;
+    background:url(https://cs8.pikabu.ru/post_img/2017/02/26/8/1488116251188169149.gif);
+    background-size: 100%;
 }
 
 .header
 {
-	background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    
+}
+
+header
+{
+    background: black;
+    border: 2px solid black;
+}
+
+header p
+{
+    text-align: center;
+}
+
+.logo
+{
+    text-align: center;
 }
 
 .socseti
 {
-	float: right;
+    float: right;
 }
 
 .socseti a
@@ -47,447 +46,44 @@ a:hover
 	padding: 30px 5px;
 }
 
-.logo img
-{
-	width: 250px;
-}
-
-.banner
-{
-	background: #f2f2f2 url(images/gradient.png) top repeat-x;
-	padding: 10px, 50px, 1px, 50px;
-}
-
-.banner img
-{
-	float: left;
-	width: 200px;
-	border: 1px solid black;
-	margin-top: 50px;
-	margin-left: 20px;
-}
-
-.banner p
-{
-	text-align: center;
-	padding: 0 0 10px 0;
-}
-
-.banner h2
-{
-	font-size: 24px;
-	padding: 120px 0 0 0;
-	font-weight: normal;
-	text-align: center;
-}
-
-.banner a
-{
-	font-size: 20px;
-	color: #ab274f;
-	font-weight: bold;
-	background: #fd7c6e;
-	border:1px solid black;
-	padding: 5px 15px;
-	border-radius: 7px;
-	box-shadow: 3px 3px 7px -1px #777;
-	text-shadow: 0px 0px 5px #777;
-
-}
-
-.banner a:hover
-{
-	background: #cc6666;
-}
-
-.text1
-{
-	padding: 50px 10px 0 10px;
-}
-
-.menu
-{
-   background: linear-gradient(45deg, #EECFBA, #C5DDE8);
-   border: 2px solid #7a7666;
-   border-left: 0;
-   border-right: 0;
-}
-.menu ul li
-{
-   display: inline-block;
-   margin: 5px 70px;
-   font-weight: bold;
-}
-
-.menu ul
-{
-   margin: 0;
-   padding: 0;
-   list-style: 0;
-   text-align: center;
-}
-
-.menu ul a
-{
-  	color: #DC143C;
-  	text-transform: uppercase;
-  	text-shadow: 2px 2px 4px #0b4455;
-}
-
-.menu ul a:hover
-{
-  	color: #8B0000;
-}
-
-.footer
-{
-  	margin: 20px 0;
-  	text-align: center;
-  	text-transform: uppercase;
-  	filter: invert(1);
-}
-
-.footer span
-{
-  	margin: 0 20px;
-}
-
-.block
-{
-	width: 420px;
-  	margin: 10px;
-  	float: left;
-}
-
-.clear
-{
-  	clear:both;
-}
-
 .fon
 {
-  	background:#fff;
   	border: 1px solid #EBEBEB;
   	border-top: none;
   	padding: 50px;
 }
 
-.new
+.d1
 {
-  	background:#F2F2F2;
-  	border: 1px solid #EBEBEB;
-  	border-radius: 3px;
-  	padding: 20px;
+    background:white;
+    padding: 22px;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 100%;
 }
 
-.new:hover
+h1 
 {
-  	background: #E4E7F7;
-  	border: 1px solid #D8DBEB;
-  	transition: all 1s;
+    text-align: center;
+    color: black;
+    font: 20pt fantasy;
 }
 
-.new img
+p
 {
-  box-shadow: 3px 3px 5px #777;
-  width: 250px;
+    color: cadetblue;
 }
 
-.new h3
+form
 {
-  font-size: 20px;
-  font-weight: normal;
-  margin: 20px 0 10px;
-  padding: 0;
-  color: #7A89BF;
-  line-height: 20px;
+    text-align: center;
 }
 
-.new p
+footer
 {
-  text-shadow: 1px 1px 0 #fff;
-  text-align: justify;
-}
-
-.fon hr
-{
-  border: 0;
-  border-bottom: 1px dashed #ccc;
-  height: 1px;
-  margin: 40px 0;
-}
-
-.reklama 
-{
-  text-align: center;
-}
-
-.reklama img
-{
-  width: 800px;
-  height: 340px;
-  background:#F2F2F2;
-  border: 2px solid black;
-  border-radius: 4px;
-}
-
-.block a p
-{
-  color: #272727;
-}
-
-.photo 
-{
-    float: left;
-    margin: 17px;
-}
-
-.photo img 
-{
-	width: 265px;
-  	display: block;
-  	border: 2px solid pink;
-  	box-sizing: border-box;
-  	border-radius: 20px;
-}
-
-.photo a:hover 
-{
-    opacity: 0.5;
-}
-
-.photo a 
-{
-    display: block;
-}
-
-*:focus 
-{
-  outline: none;
-}
-
-.fon h2
-{
-  color: #565466;
-  font-size: 20px;
-  margin: 0;
-}
- 
-.pole 
-{
-  color: #93a4df;
-  font-size:14px;
-}
- 
-:-moz-placeholder 
-{
-    color: #93a4df;
-}
- 
-::-webkit-input-placeholder 
-{
-    color: #93a4df;
-}
-
-.contact_form ul 
-{
-    list-style-type: none;
-    list-style-position: outside;
-    margin: 0px;
-    padding: 0px;
-}
-
-.contact_form li
-
-{
-    padding:15px;
-    position:relative;
-}
-
-.contact_form label 
-{
-  	width:100px;
-  	display:inline-block;
-  	float:left;
-}
-
-.contact_form input 
-{
-  	height:20px;
-  	width: 85%;
-  	padding:5px 8px;
-}
-
-.contact_form textarea 
-{
-  padding: 8px;
-  width: 85%;
-}
-
-.contact_form button 
-{
-  	margin: auto;
-  	position: absolute;
-  	top: 0; left: 0; bottom: 0; right: 0;
-  	font-size: 18px;
-  	color: #f2f2f2;
-  	font-weight: bold;
-  	background: #565466;
-  	border: 1px solid #403F4D;
-  	border-radius: 7px;
-  	box-shadow: 3px 3px 7px -1px #777;
-}
-
-.contact_form button:hover 
-{
-  	background: #93a4df;
-  	border: 1px solid #8997CC;
-}
-
-@media screen and (max-width: 1000px)
-{
-  	.logo img
-  	{
-  		height: 100px;
-  	}
-	.social img
-	{
-		width: 35px; 
-		padding: 30px 5px;
-	}
-	.banner h3 
-	{
-		font-size: 22px;
-	}
-	.menu ul li
-	{
-		margin: 5px 30px;
-	}
-	.wrap
-	{
-		width: 95%;
-	}
-  	.block
-  	{
-  		width: 100%;
-  	}
-  	.block:nth-of-type(even)
-  	{
-  		width: 100%;
-  	}
-  	.reklama img
-  	{
-		width: 100%;  		
-  	}
-}
-
-@media screen and (max-width: 700px)
-{
-  	.logo img
-  	{
-  		height: 90px;
-  	}
-	.social img
-	{
-		width: 10px; 
-		padding: 25px 5px;
-	}
-	.banner h3 
-	{
-		font-size: 15px;
-	}
-	.menu ul li
-	{
-		margin: 5px 30px;
-	}
-	.wrap
-	{
-		width: 95%;
-	}
-  	.block
-  	{
-  		width: 100%;
-  	}
-  	.block:nth-of-type(even)
-  	{
-  		width: 100%;
-  	}
-  	.reklama img
-  	{
-		width: 100%;  		
-  	}
-}
-
-@media screen and (max-width: 500px)
-{
-  	.logo img
-  	{
-  		height: 90px;
-  	}
-	.social img
-	{
-		width: 5px; 
-		padding: 5px 5px;
-	}
-	.banner h3 
-	{
-		font-size: 15px;
-	}
-	.menu ul li
-	{
-		margin: 5px 20px;
-	}
-	.wrap
-	{
-		width: 95%;
-	}
-  	.block
-  	{
-  		width: 100%;
-  	}
-  	.block:nth-of-type(even)
-  	{
-  		width: 100%;
-  	}
-  	.reklama img
-  	{
-		width: 100%;  		
-  	}
-}
-
-@media screen and (max-width: 300px)
-{
-  	.logo img
-  	{
-  		height: 90px;
-  	}
-	.social img
-	{
-		width: 5px; 
-		padding: 5px 5px;
-	}
-	.banner h3 
-	{
-		font-size: 8px;
-	}
-	.menu ul li
-	{
-		margin: 5px 10px;
-	}
-	.wrap
-	{
-		width: 95%;
-	}
-  	.block
-  	{
-  		width: 100%;
-  	}
-  	.block:nth-of-type(even)
-  	{
-  		width: 100%;
-  	}
-  	.reklama img
-  	{
-		width: 100%;  		
-  	}
+    margin: 20px 0;
+  	text-align: center;
+    color: aqua;
+  	text-transform: uppercase;
+  	filter: invert(1);
 }
