@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.background {
+    background-image: url('https://i.pinimg.com/originals/0f/c8/b7/0fc8b7960ee5ac5ed89f21534ff0c23b.gif'); /* Замените на свою ссылку на изображение */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.neon-block {
+    background-color: rgb(39, 39, 39);
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(242, 0, 255, 0.6), 0 0 40px rgba( 242 ,0, 255, 0.6);
+    color: white;
+    margin: 0; /* Убираем стандартные отступы у параграфов */
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Arial', 'Verdana';
+}
+
+p {
+    font-size: 1.2em;
+    font-family: 'Arial', 'Verdana';
+}
+.neon-block p:nth-of-type(4n) {
+    margin-bottom: 20px; /* Отступ после каждой четвёртой строки */
+}
